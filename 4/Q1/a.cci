@@ -1,0 +1,4 @@
+VERSION:3 SOURCE_TIMESTAMP:4D9392BA
+NODE:I LEVEL:0 LINE:24 "C:\Program Files (x86)\CodeVision\inc\mega16.h"
+NODE:I LEVEL:0 LINE:27 "C:\Program Files (x86)\CodeVision\inc\alcd.h"
+NODE:F LEVEL:0 LINE:31 "main(void)"

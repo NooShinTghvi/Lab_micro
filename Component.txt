@@ -1,0 +1,13 @@
+pin is input,
+port is output
+
+L298 br Driver : برا کنترل جریان
+
+Pot HG :  مقاومت متغییر
+
+Switch 3 pot :  سوییچ سه به یک 
+
+Switch SPDT : سوییچ دو به یک
+
+LED ->optoelectronics :)
+

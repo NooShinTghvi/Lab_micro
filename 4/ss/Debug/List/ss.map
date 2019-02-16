@@ -1,0 +1,40 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+__ds1820_scratch_pad                                                              0x0160       9
+negin                                                                             0x0169      10
+negin1                                                                            0x0173      10
+rom_codes                                                                         0x017D       9
+_base_y                                                                           0x0186       4
+_seed                                                                             0x018A       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+num                                                                               R4,R5        2
+num1                                                                              R6,R7        2
+_lcd_x                                                                            R9           1
+_lcd_y                                                                            R8           1
+_lcd_maxx                                                                         R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_ovf_isr                                                                    0x00065      1
+read_adc                                                                          0x00066     14
+main                                                                              0x00074    113
+ds1820_select                                                                     0x000E5     34
+ds1820_read_spd                                                                   0x00107     42
+ds1820_temperature_10                                                             0x00131     41
+_lcd_write_nibble_G101                                                            0x0015A     20
+_lcd_write_data                                                                   0x0016E     12
+lcd_gotoxy                                                                        0x0017A     13
+lcd_clear                                                                         0x00187     12
+lcd_putchar                                                                       0x00193     21
+lcd_puts                                                                          0x001A8     17
+lcd_init                                                                          0x001B9     46
+itoa                                                                              0x001E7     46

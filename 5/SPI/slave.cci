@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:4E399770
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavr\inc\stdlib.h"
+NODE:V LEVEL:0 LINE:30 "data_send -> R5"
+NODE:V LEVEL:0 LINE:31 "data_get -> R4"
+NODE:V LEVEL:0 LINE:32 "buffer -> RAM:????"
+NODE:I LEVEL:0 LINE:34 "C:\cvavr\inc\spi.h"
+NODE:F LEVEL:0 LINE:36 "main(void)"

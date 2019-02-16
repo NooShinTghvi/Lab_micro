@@ -1,0 +1,54 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+__ds1820_scratch_pad                                                              0x0163       9
+negin                                                                             0x016C      10
+negin1                                                                            0x0176      10
+negin2                                                                            0x0180      10
+negin3                                                                            0x018A      10
+strW                                                                              0x0194      10
+rx_buffer                                                                         0x019E       8
+rx_rd_index                                                                       0x01A6       1
+rx_counter                                                                        0x01A7       1
+rom_codes                                                                         0x01A8      18
+ds1820_devices                                                                    0x01BA       1
+ds1820_rom_codes                                                                  0x01BB      18
+_base_y                                                                           0x01CD       4
+_lcd_x                                                                            0x01D1       1
+_lcd_y                                                                            0x01D2       1
+_lcd_maxx                                                                         0x01D3       1
+_seed                                                                             0x01D4       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+num                                                                               R4,R5        2
+num1                                                                              R6,R7        2
+num2                                                                              R8,R9        2
+num3                                                                              R10,R11      2
+date                                                                              R13          1
+rx_wr_index                                                                       R12          1
+rx_buffer_overflow                                                                R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x0007B     42
+getchar                                                                           0x000A5     32
+read_adc                                                                          0x000C5     14
+main                                                                              0x000D3    197
+ds1820_select                                                                     0x00198     34
+ds1820_read_spd                                                                   0x001BA     42
+ds1820_temperature_10                                                             0x001E4     41
+_lcd_write_nibble_G101                                                            0x0020D     20
+_lcd_write_data                                                                   0x00221     12
+lcd_gotoxy                                                                        0x0022D     17
+lcd_clear                                                                         0x0023E     14
+lcd_putchar                                                                       0x0024C     32
+lcd_puts                                                                          0x0026C     17
+lcd_init                                                                          0x0027D     47
+itoa                                                                              0x002AC     46
